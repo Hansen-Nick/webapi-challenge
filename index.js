@@ -12,3 +12,9 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
+
+server = require('./server.js')
+
+server.listen(4000, () => {
+  console.log('Server listening on port 4000!')
+})
